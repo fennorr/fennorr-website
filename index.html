@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fennorr East Private Limited — digital products and strategic advisory.">
+  <title>Fennorr — Digital Products & Strategic Advisory</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #f4f1ea;
+      color: #1b1b19;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 40px 60px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+
+    .brand {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      letter-spacing: 0.12em;
+    }
+
+    .nav-links a {
+      color: #1b1b19;
+      text-decoration: none;
+      margin-left: 28px;
+    }
+
+    .hero {
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 850px;
+    }
+
+    .eyebrow {
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 11px;
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 7vw, 92px);
+      font-weight: 400;
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+      margin-bottom: 35px;
+    }
+
+    .intro {
+      max-width: 650px;
+      font-size: 21px;
+      color: #45433e;
+    }
+
+    .divider {
+      border-top: 1px solid #cbc7bd;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 90px;
+      padding: 100px 0;
+    }
+
+    .service-number {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      margin-bottom: 35px;
+      color: #77736a;
+    }
+
+    h2 {
+      font-size: 34px;
+      font-weight: 400;
+      margin-bottom: 22px;
+    }
+
+    .services p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 1.8;
+      color: #55524b;
+      max-width: 430px;
+    }
+
+    .contact {
+      padding: 100px 0 120px;
+    }
+
+    .contact h2 {
+      font-size: clamp(38px, 5vw, 64px);
+      margin-bottom: 30px;
+    }
+
+    .contact a {
+      color: #1b1b19;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+    }
+
+    footer {
+      border-top: 1px solid #cbc7bd;
+      padding: 30px 0 10px;
+      display: flex;
+      justify-content: space-between;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      color: #77736a;
+    }
+
+    footer a {
+      color: #77736a;
+    }
+
+    @media (max-width: 700px) {
+      .page {
+        padding: 28px 24px;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        min-height: 72vh;
+      }
+
+      .services {
+        grid-template-columns: 1fr;
+        gap: 65px;
+        padding: 75px 0;
+      }
+
+      footer {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <nav>
+      <div class="brand">FENNORR</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">What we do</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+
+      <section class="hero" id="about">
+        <div class="eyebrow">Singapore · International</div>
+
+        <h1>Ideas, products<br>& perspective.</h1>
+
+        <p class="intro">
+          Fennorr East Private Limited is a Singapore-based company
+          developing focused digital products and providing strategic
+          advisory services to businesses operating internationally.
+        </p>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="services" id="work">
+
+        <div>
+          <div class="service-number">01 — DIGITAL PRODUCTS</div>
+          <h2>Simple tools for real problems.</h2>
+          <p>
+            We develop focused digital products designed to make everyday
+            work, productivity and decision-making simpler.
+          </p>
+        </div>
+
+        <div>
+          <div class="service-number">02 — ADVISORY</div>
+          <h2>Strategy across markets.</h2>
+          <p>
+            Strategic and commercial advisory for businesses navigating
+            international markets, partnerships and growth.
+          </p>
+        </div>
+
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="contact" id="contact">
+        <div class="eyebrow">CONTACT</div>
+        <h2>Let's talk.</h2>
+        <a href="mailto:laura@fennorr.com">laura@fennorr.com</a>
+      </section>
+
+    </main>
+
+    <footer>
+      <span>© 2026 Fennorr East Private Limited · Singapore</span>
+      <span>Digital Products & Strategic Advisory</span>
+    </footer>
+
+  </div>
+</body>
+</html>
